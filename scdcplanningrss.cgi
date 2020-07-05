@@ -3,13 +3,8 @@
 # https://github.com/davebiffuk/scdc-planning-rss
 # Dave Holland <dave@biff.org.uk>
 
-# 2 November 2010
-# rewritten for new planning application search at
-# plan.scambs.gov.uk
-
 use strict;
 use HTML::TreeBuilder;
-use HTML::TableExtract;
 use HTML::Entities qw(:DEFAULT encode_entities_numeric);
 use Getopt::Std;
 use CGI qw(:standard);
